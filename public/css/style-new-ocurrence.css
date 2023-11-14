@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F1F4F8;
+}
+
+.navbar {
+    background-color: #003997;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    border-radius: 100px;
+    transition: background-color 0.3s;
+}
+
+.navbar h2 {
+    color: white;
+}
+
+#back-home {
+    display: flex;
+    font-size: 14px;
+    border: none;
+    border-radius: 100px;
+    background-color: #002c74;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.10);
+    transition: transform 0.2s;
+    margin: 10px 10px 10px -15px;
+    padding: 10px 20px;
+}
+
+#back-home:hover {
+    transform: translateY(-2px);
+}
+
+.text-tutorial p {
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+form {
+    text-align: center;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.types-ocurrence select {
+    background-color: #003997;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 70%;
+    font-size: 16px;
+}
+
+.types-ocurrence select option {
+    background-color: white;
+    color: #003997;
+}
+
+.types-ocurrence select option:hover,
+.types-ocurrence select option:checked {
+    background-color: #003997;
+    color: white;
+}
+
+.risk-ocurrence select {
+    background-color: #003997;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 70%;
+    font-size: 16px;
+}
+
+.risk-ocurrence select option {
+    background-color: white;
+    color: #003997;
+}
+
+.risk-ocurrence select option:hover,
+.risk-ocurrence select option:checked {
+    background-color: #003997;
+    color: white;
+}
+
+.custom-textarea {
+    background-color: #003997;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 65%;
+    font-size: 16px;
+    resize: vertical;
+}
+
+.custom-textarea::placeholder {
+    color: white;
+}
+
+
+#custom-textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 57, 151, 0.5);
+}
+
+.adress input[type="text"] {
+    background-color: #003997;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 65%;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.adress input[type="text"]::placeholder {
+    color: white;
+}
+
+#idtexto:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 57, 151, 0.5);
+}
+
+#button-create-account {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.send-photo {
+    text-align: center;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.send-photo img {
+    width: 290px;
+    border-radius: 15px;
+}
+
+.register-ocurrence {
+    text-align: center;
+}
+
+#button-register-ocurrence {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F1F4F8;
+}
+
+.navbar {
+    background-color: #003997;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    border-radius: 100px;
+    transition: background-color 0.3s;
+}
+
+.navbar h2 {
+    color: white;
+}
+
+#back-home {
+    display: flex;
+    font-size: 14px;
+    border: none;
+    border-radius: 100px;
+    background-color: #002c74;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.10);
+    transition: transform 0.2s;
+    margin: 10px 10px 10px -15px;
+    padding: 10px 20px;
+}
+
+#back-home:hover {
+    transform: translateY(-2px);
+}
+
+.ocurrences h3 {
+    margin-left: 10px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-ocurrences {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.card-ocurrences img {
+    width: 350px;
+    border-radius: 15px;
+}
+
+form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+input[type="text"] {
+    width: 75%;
+    padding: 15px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.actions {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.actions a {
+    text-decoration: none;
+    color: white
+}
+
+#button-create-ocurrence {
+    background-color: #003997;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+#button-create-ocurrence:hover {
+    background-color: #007bff;
+}
