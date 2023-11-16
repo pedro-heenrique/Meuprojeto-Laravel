@@ -13,14 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+use App\Http\Controllers\CalledController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/home', [CalledController::class, 'index']);
 
-Route::get('/home', function () {
-    return view('home-page');
-});
+Route::get('/Calleds/called', [CalledController::class, 'called']);
+
 
 Route::get('/paginadesenha', function () {
     return view('forge-password-page');
