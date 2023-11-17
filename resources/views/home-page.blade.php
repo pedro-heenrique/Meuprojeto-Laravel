@@ -23,8 +23,8 @@
 
     <div class="button-container">
         <button id="page-profile" title="Perfil"><a href="my-profile-page.html" class="icon-profile"><span class="material-icons">person</span></a></button>
-        <button id="page-another" title="Chamados"><a href="/Calleds/called" class="icon-profile"><span class="material-icons">phone_in_talk</span></a></button>
-        <button id="page-appointment" title="Agendamento"><a href="page-appointment.html" class="icon-profile"><span class="material-icons">date_range</span></a></button>
+        <button id="page-another" title="Chamados"><a href="my-page-another.html" class="icon-profile"><span class="material-icons">phone_in_talk</span></a></button>
+        <button id="page-appointment" title="Agendamento"><a href="/Calleds/called" class="icon-profile"><span class="material-icons">date_range</span></a></button>
         <button id="page-news" title="Notícias"> <a href="page-another.html" class="icon-profile"><span class="material-icons">article</span></a></button>
     </div>
 </div>
