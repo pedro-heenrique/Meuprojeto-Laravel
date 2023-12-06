@@ -13,35 +13,33 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-use App\Http\Controllers\CalledController;
+use App\Http\Controllers\EventController;
 
-Route::get('/home', [CalledController::class, 'index']);
+Route::get('/home', [EventController::class, 'index']);
 
-Route::get('/Calleds/called', [CalledController::class, 'called']);
+Route::get('/events/create', [EventController::class, 'create']);
 
 
 Route::get('/paginadesenha', function () {
     return view('forge-password-page');
 });
 
-Route::get('/login', function () {
-    return view('login-page');
+Route::middleware([
+    'auth:sanctum',
+    config('jetstream.auth_session'),
+    'verified',
+])->group(function () {
+    Route::get('/dashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
 });
 
-Route::get('/minhas ocorrencias', function () {
-    return view('my-ocurrences');
-});
+Route::get('/events/news', [EventController::class, 'news']);
 
-Route::get('/meu perfil', function () {
-    return view('my-profile-page');
-});
+Route::get('/events/called', [EventController::class, 'called']);
 
-Route::get('/nova ocorrencia', function () {
-    return view('new-ocurrence');
-});
+Route::get('/events/myprofile', [EventController::class, 'myprofile']);
 
-Route::get('/registro', function () {
-    return view('register-page');
-});
+Route::get('/events/myocurrences', [EventController::class, 'myocurrences']);
 
-
+Route::get('/events/newocurrence', [EventController::class, 'newocurrence']);

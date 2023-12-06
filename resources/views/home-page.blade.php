@@ -18,14 +18,14 @@
 
 <div class="navbar">
     <div class="button-container">
-        <button id="page-my-occurrences"></title><a href="my-ocurrences-page.html" class="icon-profile"><span class="material-icons">visibility</span><span class="button-text">Minhas ocorrências</span></a></button>
+        <button id="page-my-occurrences"></title><a href="/events/myocurrences" class="icon-profile"><span class="material-icons">visibility</span><span class="button-text">Minhas ocorrências</span></a></button>
     </div>
 
     <div class="button-container">
-        <button id="page-profile" title="Perfil"><a href="my-profile-page.html" class="icon-profile"><span class="material-icons">person</span></a></button>
-        <button id="page-another" title="Chamados"><a href="my-page-another.html" class="icon-profile"><span class="material-icons">phone_in_talk</span></a></button>
-        <button id="page-appointment" title="Agendamento"><a href="/Calleds/called" class="icon-profile"><span class="material-icons">date_range</span></a></button>
-        <button id="page-news" title="Notícias"> <a href="page-another.html" class="icon-profile"><span class="material-icons">article</span></a></button>
+        <button id="page-profile" title="Perfil"><a href="/events/myprofile" class="icon-profile"><span class="material-icons">person</span></a></button>
+        <button id="page-another" title="Chamados"><a href="/events/called" class="icon-profile"><span class="material-icons">phone_in_talk</span></a></button>
+        <button id="page-appointment" title="Agendamento"><a href="/events/create" class="icon-profile"><span class="material-icons">date_range</span></a></button>
+        <button id="page-news" title="Notícias"> <a href="/events/news" class="icon-profile"><span class="material-icons">article</span></a></button>
     </div>
 </div>
 
@@ -69,7 +69,7 @@
     </div>
 
     <div class="new-ocurrence">
-        <a href="new-ocurrence-page.html"><img src="/img/plus.png" width="60px" alt="Crie sua ocorrência" title="Crie sua ocorrência"></a>
+        <a href="/events/newocurrence"><img src="/img/plus.png" width="60px" alt="Crie sua ocorrência" title="Crie sua ocorrência"></a>
     </div>
 
 </body>
