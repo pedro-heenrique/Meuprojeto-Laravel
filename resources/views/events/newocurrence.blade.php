@@ -16,7 +16,7 @@
 <body>
     
     <div class="navbar">
-        <button id="back-home"><a href="home-page.html" class="icon-profile"><span class="material-icons">arrow_back</span></a></button>
+        <button id="back-home" onclick="goBack()"><a href="home-page.html" class="icon-profile"><span class="material-icons">arrow_back</span></a></button>
         <h2 class="page-title">Nova ocorrência</h2>
     </div>
 
@@ -56,14 +56,12 @@
             </select>
         </div>
     
-     </form>
+     </form enctype="multipart/form-data">
 
-    <div class="send-photo">
-        <button id="button-create-account">Enviar imagem</button>
-        <br>
-        <img src="/img/buraco.png" alt="Foto da ocorrência" title="Foto da ocorrência">
+     <div class="form-group">  
+        <label for="image">Imagem da Ocorrência:</label>
+        <input type="file" id="image" name="image" class="from-control-file">
     </div>
-
     <div class="register-ocurrence">
         <button id="button-register-ocurrence">Registrar ocorrência</button>
     </div>

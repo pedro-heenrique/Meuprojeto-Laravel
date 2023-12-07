@@ -56,10 +56,11 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     justify-content: center;
     align-items: center;
 }
+
 
 .card-client {
     background-color: white;
@@ -85,7 +86,13 @@ body {
     bottom: 20px;
     right: 30px;
     z-index: 9999;
+    
 }
+.new-ocurrence:hover {
+    transform: translateY(-2px);
+}
+
+
 
 #page-profile,
 #page-another,
@@ -118,9 +125,9 @@ body {
 
 .button-container {
     display: flex;
-    align-items: center; /* Para centralizar verticalmente, se necessário */
+    align-items: center; 
 }
 
 .button-container button {
-    margin-right: 10px; /* Adicione margem entre os botões conforme necessário */
+    margin-right: 10px; 
 }

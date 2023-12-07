@@ -43,3 +43,4 @@ Route::get('/events/myprofile', [EventController::class, 'myprofile']);
 Route::get('/events/myocurrences', [EventController::class, 'myocurrences']);
 
 Route::get('/events/newocurrence', [EventController::class, 'newocurrence']);
+

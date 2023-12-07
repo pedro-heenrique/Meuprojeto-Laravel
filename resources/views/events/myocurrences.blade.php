@@ -49,7 +49,7 @@
         <br>
      </form>
 
-     <div class="actions">
+     <div class="actions">  
         <a href="new-ocurrence-page.html"><button id="button-create-ocurrence">Criar nova ocorrência</button></a>
         <br>
     </div>
